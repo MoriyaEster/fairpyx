@@ -58,7 +58,7 @@ class Instance:
     ### dict of lists:
     >>> instance = Instance(
     ...   agent_capacities = {"Alice": 2, "Bob": 3}, 
-    ...   item_capacities  = [1,2,3,4], 
+    ...   item_capacities  = [1,2,3,4],
     ...   valuations       = {"Alice": [22,33,44,55], "Bob": [66,77,88,99]})
     >>> instance.agent_capacity("Alice")
     2
